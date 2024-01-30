@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@300&display=swap');
+
+.banner{
+    color: white; 
+    object-fit: contain;
+    height: 550px;
+    
+}
+
+.bannerContent{
+    margin-bottom: 30px;
+    padding-top: 210px;
+    height: 190px;
+    margin-left: 10px;
+}
+
+.banner_title{
+    font-size: 3rem;
+font-weight: 800;
+padding-bottom: 0.3rem;
+font-family: 'Bebas Neue', cursive;
+}
+
+.banner_description{
+    width: 45rem;
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-size: 0.8rem; 
+    max-width: 360px;
+    height: 80px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+}
+
+.banner_button{
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    border-radius:0.2vw ;
+padding-left: 2rem;
+padding-right: 2rem;
+margin-right: 1rem;
+padding-top: 0.5rem;
+background-color: rgba(50, 47, 47, 0.5);
+padding-bottom: 0.5rem;
+}
+
+.banner_button:hover{
+    color: black;
+    background-color: #e6e6e6;
+    transition: all 0.3s;
+}
+
+.banner_bottomfade{
+ height: 7.4rem;
+ background-image: linear-gradient(
+    180deg,transparent,
+     rgba(0, 0, 0, 0.61),#111);   
+}

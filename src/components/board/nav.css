@@ -1,0 +1,48 @@
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 25px;
+    display: flex;
+    padding: 20px;
+    z-index: 1;
+
+    /* Animations */
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+
+}
+
+.nav_black{
+    background-color: #111;
+}
+
+.menu{
+    color:black;
+    font-size: 30px;
+}
+
+.menuWhite{
+    color:white;
+    font-size: 30px;
+}
+
+.menuDropDown{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.menuButton{
+    border: 0;
+    background: transparent;
+    color: white;
+}
+
+.menuButton:hover{
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+}
